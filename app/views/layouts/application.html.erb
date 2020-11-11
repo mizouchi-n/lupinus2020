@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lupinus2020</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="headertitle">Lupinus</h1>
+    </header>
+    <%= yield %>
+   <footer>
+      <h1 class="footertitle">＊＊ Lupinus 2020 ＊＊</h1>
+    </footer>
+  </body>
+</html>
